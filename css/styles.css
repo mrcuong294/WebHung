@@ -1,0 +1,8 @@
+.col-left {
+    background: green;
+    min-height: 200px;
+}
+.col-right {
+    background: black;
+    min-height: 200px;
+}
