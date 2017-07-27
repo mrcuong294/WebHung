@@ -3,20 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <title>Trang chủ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<div class="container">
-    <h1>Hello, world!</h1>
-    <div class="row">
+<div class="container-fluid block-player">
+    <div class="container">
+        <div class="row row-block player">
+            <div class="col-md-8 col-sm-12 video-player">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+                            class="embed-responsive-item"
+                            src="https://www.youtube.com/embed/mmq-KVeO-uU?ecver=1"
+                            frameborder="0" allowfullscreen></iframe>
+                </div>
 
-        <div class="col-md-9 col-sm-12 col-left">
+            </div>
+            <div class="col-md-4 col-sm-12 playlist">
 
+                <div class="row media video-item actived">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+
+                <div class="row media video-item">
+                    <div class="media-left">
+                        <img class="media-object" src="images/video-item.jpg" alt="img">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Kotlin: Android Support Announced at Google I/O</h5>
+                        <small>Android developers</small>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3 col-sm-12 col-right">
+
+        <div class="row toolbar row-block">
+            <ul class="nav navbar-nav">
+                <li class="actived"><a href="#">Tin tức</a></li>
+                <li><a href="#">Giftcode</a></li>
+            </ul>
+            <div class="account">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span> mrcuong
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container block-news">
+
+    <div class="row row-block">
+        <div class="col-md-8 news-col-left">
+            <div class="media news-item">
+                <div class="media-left">
+                    <img class="media-object" src="images/video-item.jpg" alt="img">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Kotlin: Android Support Announced at Google I/O</h4>
+                    <small>Admin | 27/07/2017</small>
+                    <p>Kho hàng của Amazon tại Singapore có kích thước bằng 2 sân bóng đá, hiện có khoảng hơn 1.100 mặt hàng các loại. Với dịch vụ Amazon Prime...
+                    </p>
+                </div>
+            </div>
+
+            <div class="media news-item">
+                <div class="media-left">
+                    <img class="media-object" src="images/video-item.jpg" alt="img">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Kotlin: Android Support Announced at Google I/O</h4>
+                    <small>Admin | 27/07/2017</small>
+                    <p>Kho hàng của Amazon tại Singapore có kích thước bằng 2 sân bóng đá, hiện có khoảng hơn 1.100 mặt hàng các loại. Với dịch vụ Amazon Prime...
+                    </p>
+                </div>
+            </div>
+
+            <div class="media news-item">
+                <div class="media-left">
+                    <img class="media-object" src="images/video-item.jpg" alt="img">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Kotlin: Android Support Announced at Google I/O</h4>
+                    <small>Admin | 27/07/2017</small>
+                    <p>Kho hàng của Amazon tại Singapore có kích thước bằng 2 sân bóng đá, hiện có khoảng hơn 1.100 mặt hàng các loại. Với dịch vụ Amazon Prime...
+                    </p>
+                </div>
+            </div>
+
+            <div class="media news-item">
+                <div class="media-left">
+                    <img class="media-object" src="images/video-item.jpg" alt="img">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Kotlin: Android Support Announced at Google I/O</h4>
+                    <small>Admin | 27/07/2017</small>
+                    <p>Kho hàng của Amazon tại Singapore có kích thước bằng 2 sân bóng đá, hiện có khoảng hơn 1.100 mặt hàng các loại. Với dịch vụ Amazon Prime...
+                    </p>
+                </div>
+            </div>
+
+            <div class="media news-item">
+                <div class="media-left">
+                    <img class="media-object" src="images/video-item.jpg" alt="img">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Kotlin: Android Support Announced at Google I/O</h4>
+                    <small>Admin | 27/07/2017</small>
+                    <p>Kho hàng của Amazon tại Singapore có kích thước bằng 2 sân bóng đá, hiện có khoảng hơn 1.100 mặt hàng các loại. Với dịch vụ Amazon Prime...
+                    </p>
+                </div>
+            </div>
+
+            <div class="media news-item">
+                <div class="media-left">
+                    <img class="media-object" src="images/video-item.jpg" alt="img">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Kotlin: Android Support Announced at Google I/O</h4>
+                    <small>Admin | 27/07/2017</small>
+                    <p>Kho hàng của Amazon tại Singapore có kích thước bằng 2 sân bóng đá, hiện có khoảng hơn 1.100 mặt hàng các loại. Với dịch vụ Amazon Prime...
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 news-col-right">
 
         </div>
     </div>
@@ -24,7 +218,7 @@
 
 
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
